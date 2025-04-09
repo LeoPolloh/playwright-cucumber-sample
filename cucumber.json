@@ -5,6 +5,6 @@
     },
     "paths": ["src/tests/features"],
     "require": ["src/tests/steps/*.ts"],
-    "publishQuiet": true
+    "requireModule":["ts-node/register"]
   }
 }
