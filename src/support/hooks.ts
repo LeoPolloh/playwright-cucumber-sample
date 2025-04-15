@@ -5,7 +5,7 @@ let browser: Browser;
 let page: Page;
 
 Before(async function () {
-  browser = await chromium.launch({ channel: 'msedge', headless: false });
+  browser = await chromium.launch({ channel: 'msedge', headless: true });
   page = await browser.newPage();
   this.page = page;
 });
