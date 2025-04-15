@@ -1,0 +1,6 @@
+{
+    "default": {
+      "require": ["./src/steps/**/*.ts"],
+      "format": ["json:./reports/cucumber_report.json"]
+    }
+  }
