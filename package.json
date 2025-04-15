@@ -1,12 +1,28 @@
 {
+  "name": "playwright-cucumber-sample",
+  "version": "1.0.0",
+  "main": "index.js",
   "scripts": {
-    "test": "cucumber-js test",
+    "tests": "cucumber-js src/features",
     "codegen": "npx playwright codegen"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeoPolloh/playwright-cucumber-sample.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeoPolloh/playwright-cucumber-sample/issues"
+  },
+  "homepage": "https://github.com/LeoPolloh/playwright-cucumber-sample#readme",
+  "description": "",
   "devDependencies": {
     "@cucumber/cucumber": "^11.2.0",
     "@playwright/test": "^1.51.1",
-    "@types/node": "^22.14.0",
+    "@types/node": "^22.14.1",
+    "dotenv": "^16.5.0",
     "playwright": "^1.51.1",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.3"
